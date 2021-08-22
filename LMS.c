@@ -15,6 +15,15 @@ struct student{
 };
 
 int main(){
+    printf("\n\t\t  **-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**");
+    printf("\n\t\t        ~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~");
+    printf("\n\t\t        ~                 WELCOME                   ~");
+    printf("\n\t\t        ~                   TO                      ~");
+    printf("\n\t\t        ~                 LIBRARY                   ~");
+    printf("\n\t\t        ~               MANAGEMENT                  ~");
+    printf("\n\t\t        ~                 SYSTEM                    ~");
+    printf("\n\t\t        ~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~");
+    printf("\n\t\t  **-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**\n");
     struct library l[100];
     struct student s[100];
     char ath_name[50];
