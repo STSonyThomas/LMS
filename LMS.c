@@ -149,9 +149,13 @@ int main(){
                     printf("\n");
                     printf("Enjoy your book!");
                 }
+                else{
+                    // verifying whether the student is enrolled in the databse for the day
+                    printf("Sorry the student you have entered is not found in database\n");
+                }
             }
             if(num==0){
-                printf("ERROR ADICHU MONE!!!!");
+                printf("ERROR ADICHU MONE!!!!\n");
             }
             break;
             //to add a new student
@@ -159,6 +163,7 @@ int main(){
             printf("Enter name of new student = ");
             scanf("%s",s[k].st_name);
             s[k].id=100+k;
+            num++;
             printf("Unique ID for student generated = %d\n",s[k].id);
             break;
             //to exit the process and all data will be lost
